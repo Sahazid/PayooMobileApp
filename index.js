@@ -2,7 +2,7 @@ document.getElementById('login-btn').addEventListener('click', function(e)
 {
         e.preventDefault();
         
-        const mobileNumber = 17565160131;
+        const mobileNumber = 1756516013;
         const pin = 1234;
 
         const mobileNumberValue = document.getElementById('mobile-number').value;
