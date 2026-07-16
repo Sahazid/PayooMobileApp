@@ -1,4 +1,4 @@
-const validPin = 7264;
+const validPin = 1234;
 const transactionData = [];
 document.getElementById("log-out").addEventListener("click", function () {
   window.location.href = "./index.html";
