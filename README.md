@@ -1,13 +1,13 @@
 # 💳 Mobile Banking Web Application
 
 A modern **Mobile Banking Web Application** built using **HTML, Tailwind CSS, DaisyUI, and JavaScript**. The application is designed specifically for **mobile and tablet devices** with a clean, responsive, and user-friendly interface.
-
+## Live Project : https://payoo-mobile-app-six.vercel.app/
 ## 📹 Demo Video
 
 Watch the project demo here:
 
 **LinkedIn Post:**
-👉 *Add your LinkedIn post link here*
+👉 https://www.linkedin.com/posts/md-sahazid-hossen-sani-85a1ba274_frontenddevelopment-javascript-tailwindcss-ugcPost-7479674699426242561-zIKw/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAELzD0YBzSDoMzPvUh6SBV6j0_UfdDoXnDY
 
 ---
 
