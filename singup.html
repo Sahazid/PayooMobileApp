@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo Mobile Banking App</title>
+
+    <!-- DaisyUI CDN -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+<body class="bg-[#f4f5f7] h-screen flex flex-col justify-center items-center">
+    
+        <div class="h-[150px] w-[350px] bg-[url('./assets/bg.png')] bg-cover flex justify-center items-center">
+                    <img src="./assets/Group.png" alt="">
+        </div>
+        <form class="w-87.5 bg-white rounded-2xl p-8">
+            <div class="">
+                <label class="font-semibold" for="">Mobile Number</label>
+                <br>
+                <input type="text"  maxlength="10" class="input bg-[#f4f5f7] mt-3 rounded-3xl outline-none" id="sing-up-mobile-number" placeholder="Enter Your Number" />
+            </div>
+            <div class="mt-5" id="sing-up-pin-div">
+                <label class="font-semibold" for="">4 Digit Number</label>
+                <br>
+                <input type="password" maxlength="4" class=" input  bg-[#f4f5f7] mt-3 rounded-3xl outline-none" placeholder="Enter 4 Digit Pin" id="sing-up-pin-digit"/>
+            </div>
+            <div class="mt-5" id="confirm-pin-div-2">
+                <label class="font-semibold">4 Digit Number</label>
+                <br>
+                <input type="password" maxlength="4" class=" input  bg-[#f4f5f7] mt-3 rounded-3xl outline-none" placeholder="Enter 4 Digit Pin" id="confirm-pin-digit"/>
+            </div>
+            <button class="btn bg-[#0874F2] mt-5 w-full rounded-3xl text-white" id="sing-up-page-btn">Sing Up</button>
+            <button class="btn bg-[#1d2c3e] mt-5 w-full rounded-3xl text-white" id="sing-up-login-btn">Login</button>
+
+            <div id="spinner" class=" text-center mt-5 hidden">
+                <span class="loading loading-dots loading-xs"></span>
+            <span class="loading loading-dots loading-sm"></span>
+            <span class="loading loading-dots loading-md"></span>
+            <span class="loading loading-dots loading-lg"></span>
+            <span class="loading loading-dots loading-xl"></span>
+            </div>
+        </form>
+
+      <script src="./singUp.js"></script>
+</body>
+</html>
